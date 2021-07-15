@@ -1,24 +1,16 @@
-/* Work images */
 
-.run {
-    background-image: url("../images/02-run-buddy.jpg");
+  .Note-Tracker {
+    background-image: url("../images/Note-Taker.PNG");
+  }
+
+  .led {
+    background-image: url("../images/My-Team.PNG");
+  }
+
+  .calc {
+    background-image: url("../images/Weather-Dashboard.PNG");
   }
   
-.led {
-    background-image: url("../images/02-portfolio-1.jpg");
-  }
-  
-.calc {
-    background-image: url("../images/02-portfolio-2.jpg");
-  }
-  
-.puzzles {
-    background-image: url("../images/02-portfolio-3.jpg");
-  }
-  
-.surf {
-    background-image: url("../images/02-portfolio-4.jpg");
-  }
 
 :root {
     --dark-grey: rgb(49, 48, 48);
@@ -77,17 +69,17 @@ main {
   }
 
 /*  Adding in the hero banner */
-.hero {
+.backgroudimg {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, white 0%, black 100%);
+    background-image: url("../images/background.jpg"), linear-gradient(180deg, white 0%, black 100%);
     background-size: cover;
     background-position: center;
-    min-height: 30vh;
+    min-height: 20vh;
     padding: 3% 5%;
     text-align: right;
 }
 
-.hero h2 {
+.backgroudimg h2 {
     background-color: white;
     color: var(--tertiary);
     margin: 0;
@@ -141,6 +133,21 @@ main {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .about-me {
+    min-height: 150px;
+    max-height: 150px;
+    font-size: 2rem;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+    background-blend-mode: soft-light;
+    background-size: 200%;
+    font-size: 1rem;
+  }
   
   .item {
     border: 5px solid white;
@@ -152,7 +159,6 @@ main {
     align-items: flex-end;
     margin: 1em;
     color: black;
-    text-decoration: none;
     background-blend-mode: soft-light;
     background-size: 200%;
     font-size: 1rem;
